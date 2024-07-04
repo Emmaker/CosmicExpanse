@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "Restores 100 health over 20 seconds, and instantly cures most status effects." }
+]

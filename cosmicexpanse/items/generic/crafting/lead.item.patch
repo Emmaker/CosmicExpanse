@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "A block of lead. Can be used for smelting." },
+  { "op" : "replace", "path" : "/shortdescription", "value" : "Lead Ore" }
+]

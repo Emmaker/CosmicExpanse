@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "lead", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ce_leadbar",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace", "bars", "all" ]
+}

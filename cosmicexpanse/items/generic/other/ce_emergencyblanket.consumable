@@ -1,0 +1,17 @@
+{
+  "itemName" : "ce_emergencyblanket",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "ce_emergencyblanket.png",
+  "description" : "For when you're cold. Provides temporary resistance on ^red;dangerously cold^reset; planets.",
+  "shortdescription" : "Emergency Blanket",
+  "effects" : [
+    [ "ce_emergencyblanket" ]
+  ],
+  "blockingEffects" : [
+    "ce_emergencyblanket"
+  ],
+  "emote" : "",
+  "emitters" : []
+}

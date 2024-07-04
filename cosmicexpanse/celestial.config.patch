@@ -1,0 +1,79 @@
+[
+  // systemTypes
+  { "op" : "replace", "path" : "/systemTypes/White/baseParameters/spaceThreatLevel", "value" : 4 },
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/0/planetaryTypes/0/item", "value" : "Tier3" },
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/0/planetaryTypes/1/item", "value" : "Tier4" },
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/1/satelliteTypes/1/item", "value" : "Tier3" },
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/1/satelliteTypes/2/item", "value" : "Tier4" },
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/2/planetaryTypes/0/item", "value" : "Tier3" },
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/2/planetaryTypes/1/item", "value" : "Tier4" },
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/3/planetaryTypes/3/item", "value" : "Tier3" },
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/3/planetaryTypes/4/item", "value" : "Tier4" },
+
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/0/planetaryTypes/0/item", "value" : "Tier1" },
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/0/planetaryTypes/1/item", "value" : "Tier2" },
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/1/satelliteTypes/1/item", "value" : "Tier1" },
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/1/satelliteTypes/2/item", "value" : "Tier2" },
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/2/planetaryTypes/0/item", "value" : "Tier1" },
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/2/planetaryTypes/1/item", "value" : "Tier2" },
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/3/planetaryTypes/3/item", "value" : "Tier1" },
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/3/planetaryTypes/4/item", "value" : "Tier2" },
+
+  { "op" : "replace", "path" : "/systemTypes/Yellow/baseParameters/spaceThreatLevel", "value" : 3 },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/0/planetaryTypes/0/item", "value" : "Tier2" },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/0/planetaryTypes/1/item", "value" : "Tier3" },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/1/satelliteTypes/1/item", "value" : "Tier2" },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/1/satelliteTypes/2/item", "value" : "Tier3" },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/2/planetaryTypes/0/item", "value" : "Tier2" },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/2/planetaryTypes/1/item", "value" : "Tier3" },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/3/planetaryTypes/3/item", "value" : "Tier2" },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/3/planetaryTypes/4/item", "value" : "Tier3" },
+
+  // planetaryTypes
+  { "op" : "remove", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType", "search" : "desert" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value" : "savannah" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value" : "ocean" },
+
+  { "op" : "remove", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType", "search" : "savannah" },
+  { "op" : "remove", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType", "search" : "ocean" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "desert" },
+
+  { "op" : "remove", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType", "search" : "toxic" },
+  { "op" : "remove", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType", "search" : "alien" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "scorchedcity" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "tundra" },
+
+  { "op" : "remove", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType", "search" : "tundra" },
+  { "op" : "remove", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType", "search" : "midnight" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "volcanic" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "alien" },
+
+  { "op" : "remove", "path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType", "search" : "volcanic" },
+  { "op" : "remove", "path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType", "search" : "scorchedcity" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-", "value" : "toxic" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-", "value" : "midnight" },
+
+  // satelliteTypes
+  { "op" : "remove", "path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType", "search" : "desert" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType/-", "value" : "savannah" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType/-", "value" : "ocean" },
+
+  { "op" : "remove", "path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType", "search" : "savannah" },
+  { "op" : "remove", "path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType", "search" : "ocean" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType/-", "value" : "desert" },
+
+  { "op" : "remove", "path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType", "search" : "toxic" },
+  { "op" : "remove", "path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType", "search" : "alien" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType/-", "value" : "scorchedcity" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType/-", "value" : "tundra" },
+
+  { "op" : "remove", "path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType", "search" : "tundra" },
+  { "op" : "remove", "path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType", "search" : "midnight" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-", "value" : "volcanic" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-", "value" : "alien" },
+
+  { "op" : "remove", "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType", "search" : "volcanic" },
+  { "op" : "remove", "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType", "search" : "scorchedcity" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-", "value" : "toxic" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-", "value" : "midnight" }
+]

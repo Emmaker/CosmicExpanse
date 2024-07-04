@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "A bandage for healing minor wounds. Restores 10 health over 1 second." }
+]

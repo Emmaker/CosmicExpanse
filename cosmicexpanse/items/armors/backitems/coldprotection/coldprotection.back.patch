@@ -1,0 +1,9 @@
+[
+  { "op" : "replace", "path" : "/price", "value" : 500 },
+  { "op" : "replace", "path" : "/rarity", "value" : "Uncommon" },
+  { "op" : "replace", "path" : "/description", "value" : "Radiates warmth. Useful on ^red;dangerously cold^reset; planets." },
+  { "op" : "replace", "path" : "/shortdescription", "value" : "Heating EPP" },
+
+  { "op" : "remove", "path" : "/statusEffects", "search" : { "stat" : "biomeradiationImmunity" } },
+  { "op" : "remove", "path" : "/statusEffects", "search" : { "stat" : "breathProtection" } }
+]

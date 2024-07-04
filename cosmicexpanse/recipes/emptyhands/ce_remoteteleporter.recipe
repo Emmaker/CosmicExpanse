@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "teleportercore", "count" : 1 },
+    { "item" : "wire", "count" : 5 },
+    { "item" : "battery", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ce_remoteteleporter",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

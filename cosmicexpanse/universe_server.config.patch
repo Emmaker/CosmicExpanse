@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/findStarterWorldParameters/requiredSystemWorlds", "search" : { "terrestrialBiome" : "desert" }, "value" : { "terrestrialBiome" : "savannah" } }
+]

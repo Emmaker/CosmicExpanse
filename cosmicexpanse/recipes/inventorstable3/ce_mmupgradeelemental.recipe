@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "manipulatormodule", "count" : 1 },
+    { "item" : "refinedaegisalt", "count" : 5 },
+    { "item" : "refinedferozium", "count" : 5 },
+    { "item" : "refinedviolium", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "ce_mmupgradeelemental",
+    "count" : 1
+  },
+  "duration" : 10,
+  "groups" : [ "inventorstable3", "ce_mmupgrades", "all" ]
+}

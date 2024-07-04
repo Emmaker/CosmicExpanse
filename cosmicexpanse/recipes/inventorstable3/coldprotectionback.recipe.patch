@@ -1,0 +1,10 @@
+[
+  { "op" : "replace", "path" : "/input", "value" : [
+      { "item" : "tungstenbar", "count" : 6 },
+      { "item" : "glass", "count" : 10 },
+      { "item" : "cryonicextract", "count" : 1 }
+    ]
+  },
+
+  { "op" : "replace", "path" : "/groups/0", "value" : "craftinganvil2" }
+]

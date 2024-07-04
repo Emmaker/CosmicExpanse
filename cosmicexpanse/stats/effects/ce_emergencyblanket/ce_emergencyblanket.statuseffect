@@ -1,0 +1,12 @@
+{
+  "name" : "ce_emergencyblanket",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "ce_emergencyblanket.lua"
+  ],
+
+  "label" : "Emergency Blanket",
+  "icon" : "/items/generic/other/ce_emergencyblanket.png"
+}

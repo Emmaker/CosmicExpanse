@@ -1,0 +1,15 @@
+{
+    "itemName" : "ce_remoteteleporter",
+    "price" : 1500,
+    "level" : 1,
+    "maxStack" : 1,
+    "rarity" : "Legendary",
+    "category" : "tool",
+    "description" : "Teleports you directly onto your ship, no matter where you are. Explodes after use.",
+    "shortdescription" : "Remote Teleporter",
+    "twoHanded" : true,
+  
+    "inventoryIcon" : "ce_remoteteleporter.png",
+    "scripts" : [ "ce_remoteteleporter.lua" ]
+  }
+  

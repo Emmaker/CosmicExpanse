@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 1 },
+    { "item" : "fabric", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ce_emergencyblanket",
+    "count" : 1
+  },
+  "groups" : [ "craftingmedical", "healing" ]
+}

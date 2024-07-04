@@ -1,0 +1,17 @@
+{
+  "itemName" : "ce_mmupgradetungsten",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "upgradeComponent",
+  "description" : "Upgrades your Matter Manipulator to mine titanium.",
+  "shortdescription" : "^orange;Tungsten MM Upgrade^reset;",
+
+  "inventoryIcon" : "ce_mmupgradetungsten.png",
+  "scripts" : [ "ce_mmupgrader.lua" ],
+
+  "upgrades" : {
+    "harvestLevel" : 3
+  }
+}

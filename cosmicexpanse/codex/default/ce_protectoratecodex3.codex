@@ -1,0 +1,32 @@
+{
+  "id" : "ce_protectoratecodex3",
+  "title" : "Guide to the Matter Manipulator",
+  "description" : "Terrene Protectorate-issued guide to the Matter Manipulator.",
+  "icon" : "protectoratecover1.png",
+  "contentPages" : [
+
+"The Matter Manipulator is the granted to each protector at their Graduation, and is the greatest tool in their arsenal. It can dig terrain, build walls with ease, and wire machines together. There are limits to the power of the Matter Manipulator, however, that are listed here:",
+
+"- The Matter Manipulator is not omnipotent. Digging takes time, building has a limited range, and wiring is not immediately accessible due to the Matter Manipulator's limited power supply. The power supply can be expanded, increasing the strength of the Matter Manipulator and unlocking more functionality, but this costs Manipulator Modules, which are rare and must be sourced by the owner of the Matter Manipulator rather than the Terrene Protectorate.",
+
+"- The Matter Manipulator is not capable of manipulating all kinds of matter. Particularly heavy elements, or particles with very complex structures can be difficult, if not outright impossible for the Matter Manipulator to manipulate. Unofficial modifications may claim to be able to change this, however these are not sanctioned by the Terrene Protectorate and damaged Matter Manipulators will cost pixels to replace. Please use them at your own discretion.",
+
+"- The Matter Manipulator is known to blow up when coming in contact with non-euclidean or non-aetherial entities. Please do not permit this under any circumstances."
+
+  ],
+  "longContentPages" : [
+
+"The Matter Manipulator is the granted to each protector at their Graduation, and is the greatest tool in their arsenal. It can dig terrain, build walls with ease, and wire machines together. There are limits to the power of the Matter Manipulator, however, and are listed here:
+
+- The Matter Manipulator is not omnipotent. Digging takes time, building has a limited range, and wiring is not immediately accessible due to the Matter Manipulator's limited power supply. The power supply can be expanded, increasing the strength of the Matter Manipulator and unlocking more functionality, but this costs Manipulator Modules, which are rare and must be sourced by the owner of the Matter Manipulator rather than the Terrene Protectorate.",
+
+"- The Matter Manipulator is not capable of manipulating all kinds of matter. Particularly heavy elements, or particles with very complex structures can be difficult, if not outright impossible for the Matter Manipulator to manipulate. Unofficial modifications may claim to be able to change this, however these are not sanctioned by the Terrene Protectorate and damaged Matter Manipulators will cost pixels to replace. Please use them at your own discretion.
+
+- The Matter Manipulator is known to blow up when coming in contact with non-euclidean or non-aetherial entities. Please do not permit this under any circumstances."
+
+  ],
+  "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

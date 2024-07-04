@@ -1,0 +1,17 @@
+{
+  "itemName" : "ce_mmupgradeelemental",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "upgradeComponent",
+  "description" : "Upgrades your Matter Manipulator to mine solarium.",
+  "shortdescription" : "^orange;Elemental MM Upgrade^reset;",
+
+  "inventoryIcon" : "ce_mmupgradeelemental.png",
+  "scripts" : [ "ce_mmupgrader.lua" ],
+
+  "upgrades" : {
+    "harvestLevel" : 6
+  }
+}

@@ -1,0 +1,15 @@
+[
+  // displayOres
+  { "op" : "add", "path" : "/displayOres/lead", "value" : {
+      "displayName" : "Lead",
+      "icon" : "/items/generic/crafting/lead.png"
+    }
+  },
+
+  // starTypeNames
+  { "op" : "replace", "path" : "/starTypeNames/whitestar", "value" : "Risky Star" },
+  { "op" : "replace", "path" : "/starTypeNames/orangestar", "value" : "Gentle Star" },
+  { "op" : "replace", "path" : "/starTypeNames/yellowstar", "value" : "Temperate Star" },
+  { "op" : "replace", "path" : "/starTypeNames/bluestar", "value" : "Severe Star" },
+  { "op" : "replace", "path" : "/starTypeNames/redstar", "value" : "Faint Star" }
+]

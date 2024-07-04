@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "petalred", "count" : 5 },
+    { "item" : "petalyellow", "count" : 5 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "orangestim",
+    "count" : 1
+  },
+  "groups" : [ "craftingmedical", "buffs" ]
+}

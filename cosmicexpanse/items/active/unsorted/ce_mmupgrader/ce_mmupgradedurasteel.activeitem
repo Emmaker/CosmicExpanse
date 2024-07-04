@@ -1,0 +1,17 @@
+{
+  "itemName" : "ce_mmupgradedurasteel",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "upgradeComponent",
+  "description" : "Upgrades your Matter Manipulator to mine aegisalt, ferozium, and violium.",
+  "shortdescription" : "^orange;Durasteel MM Upgrade^reset;",
+
+  "inventoryIcon" : "ce_mmupgradedurasteel.png",
+  "scripts" : [ "ce_mmupgrader.lua" ],
+
+  "upgrades" : {
+    "harvestLevel" : 5
+  }
+}

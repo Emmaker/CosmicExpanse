@@ -1,0 +1,12 @@
+{
+  "name" : "ce_leadblanket",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "ce_leadblanket.lua"
+  ],
+
+  "label" : "Lead Blanket",
+  "icon" : "/items/generic/other/ce_leadblanket.png"
+}

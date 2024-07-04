@@ -1,0 +1,17 @@
+{
+  "itemName" : "ce_coldpack",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "ce_coldpack.png",
+  "description" : "Use it to cool yourself down. Provides temporary resistance on ^red;dangerously hot^reset; planets.",
+  "shortdescription" : "Cold Pack",
+  "effects" : [
+    [ "ce_coldpack" ]
+  ],
+  "blockingEffects" : [
+    "ce_coldpack"
+  ],
+  "emote" : "",
+  "emitters" : []
+}

@@ -1,0 +1,8 @@
+{
+  "author" : "JamesTheMaker",
+  "description" : "null",
+  "friendlyName" : "Cosmic Expanse",
+  "includes" : [ "communityframework", "vanillauienhanced" ],
+  "name" : "cosmicexpanse",
+  "priority" : -9999
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "ce_coldpack",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "ce_coldpack.lua"
+  ],
+
+  "label" : "Cold Pack",
+  "icon" : "/items/generic/other/ce_coldpack.png"
+}

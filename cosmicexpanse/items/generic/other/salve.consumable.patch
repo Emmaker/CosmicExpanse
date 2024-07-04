@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "A salve for healing minor wounds. Restores 50 health over 20 seconds." }
+]

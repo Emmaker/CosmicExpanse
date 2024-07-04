@@ -1,0 +1,16 @@
+[
+  // Lead
+  { "op" : "add", "path" : "/surface/0/1/-", "value" : [ "lead", 0.90 ] },
+  { "op" : "add", "path" : "/surface/1/1/-", "value" : [ "lead", 0.90 ] },
+  { "op" : "add", "path" : "/surface/2/1/-", "value" : [ "lead", 0.90 ] },
+  { "op" : "add", "path" : "/surface/3/1/-", "value" : [ "lead", 0.90 ] },
+  { "op" : "add", "path" : "/surface/4/1/-", "value" : [ "lead", 0.90 ] },
+  { "op" : "add", "path" : "/surface/5/1/-", "value" : [ "lead", 0.90 ] },
+
+  { "op" : "add", "path" : "/depth1/0/1/-", "value" : [ "lead", 0.75 ] },
+  { "op" : "add", "path" : "/depth1/1/1/-", "value" : [ "lead", 0.75 ] },
+  { "op" : "add", "path" : "/depth1/2/1/-", "value" : [ "lead", 0.75 ] },
+  { "op" : "add", "path" : "/depth1/3/1/-", "value" : [ "lead", 0.75 ] },
+  { "op" : "add", "path" : "/depth1/4/1/-", "value" : [ "lead", 0.75 ] },
+  { "op" : "add", "path" : "/depth1/5/1/-", "value" : [ "lead", 0.75 ] }
+]

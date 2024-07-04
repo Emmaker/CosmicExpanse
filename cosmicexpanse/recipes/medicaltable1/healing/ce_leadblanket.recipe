@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ce_leadbar", "count" : 1 },
+    { "item" : "fabric", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ce_leadblanket",
+    "count" : 1
+  },
+  "groups" : [ "craftingmedical", "healing" ]
+}

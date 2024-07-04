@@ -1,0 +1,12 @@
+[
+  // planetTypes
+  { "op" : "replace", "path" : "/planetTypes/desert/threatRange", "value" : [3, 3] },
+  { "op" : "replace", "path" : "/planetTypes/ocean/threatRange", "value" : [2, 2] },
+  { "op" : "replace", "path" : "/planetTypes/savannah/threatRange", "value" : [2, 2] },
+  { "op" : "replace", "path" : "/planetTypes/toxic/threatRange", "value" : [6, 6] },
+  { "op" : "replace", "path" : "/planetTypes/alien/threatRange", "value" : [5, 5] },
+  { "op" : "replace", "path" : "/planetTypes/tundra/threatRange", "value" : [4, 4] },
+  { "op" : "replace", "path" : "/planetTypes/midnight/threatRange", "value" : [6, 6] },
+  { "op" : "replace", "path" : "/planetTypes/volcanic/threatRange", "value" : [5, 5] },
+  { "op" : "replace", "path" : "/planetTypes/scorchedcity/threatRange", "value" : [4, 4] }
+]

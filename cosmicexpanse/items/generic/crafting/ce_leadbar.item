@@ -1,0 +1,10 @@
+{
+  "itemName" : "ce_leadbar",
+  "price" : 10,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ce_leadbar.png",
+  "description" : "Ore for lead bars is found at shallow depths on most planets around all stars.",
+  "shortdescription" : "Lead Bar",
+  "itemTags" : [ "reagent" ]
+}

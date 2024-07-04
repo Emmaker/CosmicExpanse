@@ -1,0 +1,5 @@
+[
+  { "op" : "add", "path" : "/primaryAbility/stances/idle/aimAngle", "value" : 0 },
+  { "op" : "replace", "path" : "/primaryAbility/stances/windup/allowRotate", "value" : true },
+  { "op" : "replace", "path" : "/primaryAbility/stances/fire/allowRotate", "value" : true }
+]

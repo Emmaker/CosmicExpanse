@@ -1,0 +1,17 @@
+{
+  "itemName" : "ce_leadblanket",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "ce_leadblanket.png",
+  "description" : "Keeps those gamma waves off you. Provides temporary resistance on planets with ^red;high radiation levels^reset;.",
+  "shortdescription" : "Lead Blanket",
+  "effects" : [
+    [ "ce_leadblanket" ]
+  ],
+  "blockingEffects" : [
+    "ce_leadblanket"
+  ],
+  "emote" : "",
+  "emitters" : []
+}
