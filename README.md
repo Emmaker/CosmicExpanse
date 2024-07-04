@@ -4,14 +4,13 @@
 
 ## About
 
-This is the Git repository for Cosmic Expanse. Cosmic Expanse is a massive modification for Starbound, overhauling vanilla systems and adding brand new ones along the way. Utilizing the OpenStarbound engine modification, Cosmic Expanse can also achieve things never before seen in Starbound!
+This is the git repository for Cosmic Expanse and official submods. Cosmic Expanse is a massive modification for Starbound, overhauling vanilla systems and adding brand new ones along the way. Utilizing the OpenStarbound engine modification, Cosmic Expanse can also achieve things never before seen in Starbound!
 
 ## Dependencies
 
 Cosmic Expanse depends upon the following other mods:
 - [OpenStarbound](https://github.com/OpenStarbound/OpenStarbound)
 - [Community Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2968438274)
-- [Vanilla UI Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3167787027)
 
 ## Pull Requests
 
