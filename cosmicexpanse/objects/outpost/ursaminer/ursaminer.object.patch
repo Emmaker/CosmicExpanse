@@ -1,0 +1,26 @@
+[
+  // default
+  { "op" : "add", "path" : "/interactData/items/-", "value" : { "item" : { "name" : "ce_leadbar" } } },
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "copperpickaxe" } } },
+
+  // human_mission1
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "silverpickaxe" } } },
+
+  // floran_mission2
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "goldpickaxe" } } },
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "copperdrill" } } },
+
+  // hylotl_mission2
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "platinumpickaxe" } } },
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "silverdrill" } } },
+
+  // avian_mission2
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "diamondpickaxe" } } },
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "golddrill" } } },
+
+  // apex_mission2
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "platinumdrill" } } },
+
+  // glitch_mission2
+  { "op" : "remove", "path" : "/interactData/items", "search" : { "item" : { "name" : "diamonddrill" } } }
+]

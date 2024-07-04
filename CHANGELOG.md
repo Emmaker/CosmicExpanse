@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added "Cosmic Expanse - Credits" codex.
 - Added "Guide to the Matter Manipulator" codex.
 - Added a crafting recipe for the Orange Stim.
+- Added lead bars to the Ursa Miner.
 
 ### Changed
 
@@ -38,3 +39,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 - Removed the ability to teleport from underground on casual difficulty.
+- Removed vanilla mining tools from the Ursa Miner.
