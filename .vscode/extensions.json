@@ -1,6 +1,6 @@
 {
     "recommendations": [
         "editorconfig.editorconfig",
-        "sumneko.lua"
+        "trixnz.vscode-lua"
     ]
 }
