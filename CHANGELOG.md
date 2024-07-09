@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added "Guide to the Matter Manipulator" codex.
 - Added a crafting recipe for the Orange Stim.
 - Added lead bars to the Ursa Miner.
+- Added icon and label to `biomeairless`.
 
 ### Changed
 

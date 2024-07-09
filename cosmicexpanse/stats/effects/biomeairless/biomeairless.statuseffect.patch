@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/label", "value" : "Airless" },
+  { "op" : "add", "path" : "/icon", "value" : "/interface/statuses/air.png" }
+]
