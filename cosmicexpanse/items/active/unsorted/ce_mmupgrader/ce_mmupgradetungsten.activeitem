@@ -11,6 +11,8 @@
   "inventoryIcon" : "ce_mmupgradetungsten.png",
   "scripts" : [ "ce_mmupgrader.lua" ],
 
+  "swingTime" : 0.15,
+
   "upgrades" : {
     "harvestLevel" : 3
   }

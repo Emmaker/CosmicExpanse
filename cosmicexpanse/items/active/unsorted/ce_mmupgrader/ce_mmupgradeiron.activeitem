@@ -11,6 +11,8 @@
   "inventoryIcon" : "ce_mmupgradeiron.png",
   "scripts" : [ "ce_mmupgrader.lua" ],
 
+  "swingTime" : 0.15,
+
   "upgrades" : {
     "harvestLevel" : 2
   }

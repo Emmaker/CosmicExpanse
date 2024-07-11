@@ -11,6 +11,8 @@
   "inventoryIcon" : "ce_mmupgradetitanium.png",
   "scripts" : [ "ce_mmupgrader.lua" ],
 
+  "swingTime" : 0.15,
+
   "upgrades" : {
     "harvestLevel" : 4
   }
