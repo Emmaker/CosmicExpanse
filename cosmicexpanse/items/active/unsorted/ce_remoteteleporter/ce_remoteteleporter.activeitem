@@ -8,8 +8,9 @@
     "description" : "Teleports you directly onto your ship, no matter where you are. Explodes after use.",
     "shortdescription" : "Remote Teleporter",
     "twoHanded" : true,
-  
+
     "inventoryIcon" : "ce_remoteteleporter.png",
-    "scripts" : [ "ce_remoteteleporter.lua" ]
+    "scripts" : [ "ce_remoteteleporter.lua" ],
+
+    "swingTime" : 0.30
   }
-  
