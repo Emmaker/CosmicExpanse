@@ -1,0 +1,4 @@
+[submodule "CommunityFramework"]
+	path = communityframework
+	url = https://github.com/Emmaker/Community-Framework.git
+	branch = master
