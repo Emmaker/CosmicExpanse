@@ -8,5 +8,5 @@
     "count" : 1
   },
   "duration" : 10,
-  "groups" : [ "inventorstable3", "ce_mmupgrades", "all" ]
+  "groups" : [ "ce_craftingmining2", "ce_mmupgrades", "all" ]
 }

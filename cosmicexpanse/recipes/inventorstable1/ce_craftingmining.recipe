@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 6 },
+    { "item" : "darkwoodmaterial", "count" : 30 }
+  ],
+  "output" : {
+    "item" : "ce_craftingmining",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

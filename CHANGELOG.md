@@ -11,9 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added vanilla hazards to the desert, and snow biomes.
 - Added weaker hazards to the forest, ocean, and savannah biomes.
+- Added platinum to ore distributions.
 - Added lead to ore distributions.
 - Added lead bars.
 - Added consumables to temporarily protect against hazards.
+- Added the Mining Table/Excavation Station.
+- Added recipes for the vanilla mining tools.
 - Added MM Upgrades for all `harvestLevel` tiers.
 - Added the Remote Teleporter.
 - Added hunger on casual difficulty.

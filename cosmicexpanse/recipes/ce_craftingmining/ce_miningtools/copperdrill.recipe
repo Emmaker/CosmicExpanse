@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 10 },
+    { "item" : "battery", "count" : 1 },
+    { "item" : "wire", "count" : 5 },
+    { "item" : "siliconboard", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "copperdrill",
+    "count" : 1
+  },
+  "duration" : 10,
+  "groups" : [ "ce_craftingmining2", "ce_miningtools", "all" ]
+}

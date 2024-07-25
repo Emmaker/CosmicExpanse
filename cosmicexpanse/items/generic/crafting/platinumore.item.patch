@@ -1,0 +1,7 @@
+[
+    { "op" : "replace", "path" : "/price", "value": 25 },
+    { "op" : "replace", "path" : "/category", "value": "craftingMaterial" },
+    { "op" : "replace", "path" : "/description", "value": "It's platinum. Can be used for smelting." },
+
+    { "op": "add", "path": "/itemTags", "value": [ "reagent" ] }
+]

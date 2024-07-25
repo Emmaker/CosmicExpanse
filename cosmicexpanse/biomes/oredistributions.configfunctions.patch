@@ -1,4 +1,19 @@
 [
+  // Platinum
+  { "op" : "add", "path" : "/depth3/0/1/-", "value" : [ "platinum", 0.60 ] },
+  { "op" : "add", "path" : "/depth3/1/1/-", "value" : [ "platinum", 0.60 ] },
+  { "op" : "add", "path" : "/depth3/2/1/-", "value" : [ "platinum", 0.60 ] },
+  { "op" : "add", "path" : "/depth3/3/1/-", "value" : [ "platinum", 0.60 ] },
+  { "op" : "add", "path" : "/depth3/4/1/-", "value" : [ "platinum", 0.60 ] },
+  { "op" : "add", "path" : "/depth3/5/1/-", "value" : [ "platinum", 0.60 ] },
+
+  { "op" : "add", "path" : "/core/0/1/-", "value" : [ "platinum", 0.90 ] },
+  { "op" : "add", "path" : "/core/1/1/-", "value" : [ "platinum", 0.90 ] },
+  { "op" : "add", "path" : "/core/2/1/-", "value" : [ "platinum", 0.90 ] },
+  { "op" : "add", "path" : "/core/3/1/-", "value" : [ "platinum", 0.90 ] },
+  { "op" : "add", "path" : "/core/4/1/-", "value" : [ "platinum", 0.90 ] },
+  { "op" : "add", "path" : "/core/5/1/-", "value" : [ "platinum", 0.90 ] },
+
   // Lead
   { "op" : "add", "path" : "/surface/0/1/-", "value" : [ "lead", 0.90 ] },
   { "op" : "add", "path" : "/surface/1/1/-", "value" : [ "lead", 0.90 ] },

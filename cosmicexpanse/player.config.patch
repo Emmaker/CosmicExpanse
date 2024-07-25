@@ -1,14 +1,28 @@
 [
   // defaultBlueprints
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_remoteteleporter" },
-
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_leadbar" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "copperdrill" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "copperpickaxe" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "diamonddrill" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "diamondpickaxe" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "golddrill" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "goldpickaxe" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "platinumdrill" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "platinumpickaxe" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "silverdrill" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "silverpickaxe" },
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_mmupgradeiron" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_mmupgradetungsten" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_mmupgradetitanium" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_mmupgradedurasteel" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_mmupgradeelemental" },
+
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_remoteteleporter" },
+
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_leadbar" },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "platinumbar" },
+
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_craftingmining" },
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "orangestim" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_coldpack" },

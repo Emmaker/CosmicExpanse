@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 5 },
+    { "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "copperpickaxe",
+    "count" : 1
+  },
+  "duration" : 10,
+  "groups" : [ "ce_craftingmining", "ce_miningtools", "all" ]
+}
