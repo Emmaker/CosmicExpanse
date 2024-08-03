@@ -30,6 +30,8 @@ function upgradeMM()
   util.mergeTable(slotItem.parameters, self.upgrades)
   player.giveEssentialItem(slot, slotItem)
 
+  interface.queueMessage("Matter Manipulator upgraded!", 4, 0.5)
+
   item.consume(1)
 end
 
