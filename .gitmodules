@@ -1,3 +1,3 @@
-[submodule "communityframework"]
-	path = communityframework
-	url = https://github.com/Emmaker/communityframework
+[submodule "CosmicCore"]
+	path = cosmiccore
+	url = https://github.com/Emmaker/CosmicCore
