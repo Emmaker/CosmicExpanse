@@ -22,13 +22,13 @@
   "description" : "Used to craft gear for mining.",
   "shortdescription" : "^orange;Mining Table^white;",
 
-  "apexDescription" : "A table with a bunch of tools for foraging.",
-  "avianDescription" : "A chance to display one's ability to forage.",
-  "floranDescription" : "Floran ussse table. Floran like to hunt!",
-  "glitchDescription" : "Inspired. Farming module activated.",
-  "humanDescription" : "This table will allow me to do plenty of field work",
-  "hylotlDescription" : "To sow a seed is to one day reap nature's bounty.",
-  "novakidDescription" : "This table'd be great for farmin' some crops.",
+  "apexDescription" : "A table for creating tools for mining.",
+  "avianDescription" : "Tools like the ones crafted here are used to mine Avolite.",
+  "floranDescription" : "Floran doessn't like thisss table. Rocks aren't tassty.",
+  "glitchDescription" : "Curious. What will I find under the earth of this planet?",
+  "humanDescription" : "I can craft mining tools and upgrades at this table.",
+  "hylotlDescription" : "Great fortunes lie under the ground, waiting to be unearthed.",
+  "novakidDescription" : "I can do some minin' with the tools I can craft here.",
 
   "learnBlueprintsOnPickup" : [],
 
@@ -47,13 +47,13 @@
         "description" : "Used to craft gear for mining.",
         "shortdescription" : "^orange;Mining Table^white;",
 
-        "apexDescription" : "A table with a bunch of tools for foraging.",
-        "avianDescription" : "A chance to display one's ability to forage.",
-        "floranDescription" : "Floran ussse table. Floran like to hunt!",
-        "glitchDescription" : "Inspired. Farming module activated.",
-        "humanDescription" : "This table will allow me to do plenty of field work",
-        "hylotlDescription" : "To sow a seed is to one day reap nature's bounty.",
-        "novakidDescription" : "This table'd be great for farmin' some crops."
+        "apexDescription" : "A table for creating tools for mining.",
+        "avianDescription" : "Tools like the ones crafted here are used to mine Avolite.",
+        "floranDescription" : "Floran doessn't like thisss table. Rocks aren't tassty.",
+        "glitchDescription" : "Curious. What will I find under the earth of this planet?",
+        "humanDescription" : "I can craft mining tools and upgrades at this table.",
+        "hylotlDescription" : "Great fortunes lie under the ground, waiting to be unearthed.",
+        "novakidDescription" : "I can do some minin' with the tools I can craft here."
       },
 
       "interactData" : {
@@ -61,7 +61,7 @@
         "paneLayoutOverride" : {
           "windowtitle" : {
             "title" : " Mining Table",
-            "subtitle" : " ^#b9b5b2;Mining and spelunking",
+            "subtitle" : " ^#b9b5b2;Mining and upgrades",
             "icon" : {
               "file" : "/interface/crafting/ce_craftingmining.png"
             }
@@ -96,13 +96,13 @@
         "description" : "Used to craft advanced gear for mining.",
         "shortdescription" : "^orange;Excavation Station^white;",
 
-        "apexDescription" : "A table with a bunch of tools for foraging.",
-        "avianDescription" : "A chance to display one's ability to forage.",
-        "floranDescription" : "Floran ussse table. Floran like to hunt!",
-        "glitchDescription" : "Inspired. Farming module activated.",
-        "humanDescription" : "This table will allow me to do plenty of field work",
-        "hylotlDescription" : "To sow a seed is to one day reap nature's bounty.",
-        "novakidDescription" : "This table'd be great for farmin' some crops."
+        "apexDescription" : "A table for creating tools for mining.",
+        "avianDescription" : "Tools like the ones crafted here are used to mine Avolite.",
+        "floranDescription" : "Floran doessn't like thisss table. Rocks aren't tassty.",
+        "glitchDescription" : "Curious. What will I find under the earth of this planet?",
+        "humanDescription" : "I can craft mining tools and upgrades at this table.",
+        "hylotlDescription" : "Great fortunes lie under the ground, waiting to be unearthed.",
+        "novakidDescription" : "I can do some minin' with the tools I can craft here."
       },
 
       "interactData" : {
@@ -110,7 +110,7 @@
         "paneLayoutOverride" : {
           "windowtitle" : {
             "title" : " Excavation Station",
-            "subtitle" : " ^#b9b5b2;Mining and spelunking",
+            "subtitle" : " ^#b9b5b2;Mining and upgrades",
             "icon" : {
               "file" : "/interface/crafting/ce_craftingmining.png"
             }

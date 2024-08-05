@@ -10,8 +10,8 @@
             "mode" : "loop"
           },
           "ce_craftingmining2" : {
-            "frames" : 1,
-            "cycle" : 1,
+            "frames" : 20,
+            "cycle" : 2,
             "mode" : "loop"
           }
         }
