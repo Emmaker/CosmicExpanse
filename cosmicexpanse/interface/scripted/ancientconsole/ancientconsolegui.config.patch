@@ -1,0 +1,6 @@
+[
+    { "op" : "replace", "path" : "/gui/windowtitle/subtitle", "value" : "Requires Crystal Erchius Fuel" },
+    { "op" : "replace", "path" : "/gui/costDescription/value", "value" : "REQUIRED ERCHIUS" },
+
+    { "op" : "replace", "path" : "/activateItem", "value" : "solidfuel" }
+]

@@ -22,6 +22,8 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_leadbar" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "platinumbar" },
 
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_stlcore" },
+
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_craftingmining" },
 
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "orangestim" },

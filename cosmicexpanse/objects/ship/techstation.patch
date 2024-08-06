@@ -1,0 +1,18 @@
+[
+  [
+    // Test for gaterepair quest and no turnInQuests field
+    { "op" : "test", "path" : "/offeredQuests/0", "value" : "gaterepair" },
+    { "op" : "test", "path" : "/turnInQuests", "inverse" : true },
+
+    { "op" : "add", "path" : "/turnInQuests", "value" : [ ] }
+  ],
+  [
+    // Test for gaterepair quest
+    { "op" : "test", "path" : "/offeredQuests/0", "value" : "gaterepair" },
+
+    { "op" : "replace", "path" : "/offeredQuests/0", "value" : "ce_driverepair" },
+    { "op" : "add", "path" : "/offeredQuests/-", "value" : "ce_gaterepair" },
+
+    { "op" : "add", "path" : "/turnInQuests/-", "value" : "ce_driverepair" }
+  ]
+]

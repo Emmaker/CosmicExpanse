@@ -1,0 +1,8 @@
+{
+  "itemName" : "ce_stlcore",
+  "rarity" : "Essential",
+  "category" : "upgradeComponent",
+  "inventoryIcon" : "ce_stlcore.png",
+  "description" : "An essential component in modern day ships, used to control and power STL systems.",
+  "shortdescription" : "STL Core"
+}

@@ -1,0 +1,42 @@
+{
+  "id" : "ce_driverepair",
+  "prerequisites" : [ "bootship" ],
+  "mainQuest" : true,
+  "title" : "Minor Repairs",
+  "text" : "We are currently in orbit around an unknown world. The ship's drive is heavily damaged and we cannot leave orbit. Scans indicate there is a ^orange;volatile resource^white; under the surface of the planet, which we can use to restore STL capabilities to the ship. I suggest you ^green;beam down to the planet's surface using the ^orange;teleporter^white;, and search for it.",
+  "completionText" : "Now that ^orange;STL capabilities^white; have been restored, you can now travel ^green;within our current solar system^white;. Now you must search for a method to restore FTL capabilities.",
+  "moneyRange" : [50, 50],
+  "rewards" : [
+    [ ["rewardbag", 1] ]
+  ],
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/story/ce_driverepair.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "sail",
+      "questComplete" : "sail"
+    },
+
+    "descriptions" : {
+      "collectResource" : "Collect a ^orange;volatile resource^reset;",
+      "collectCoreFragment" : "Collect ^orange;Core Fragments^reset;",
+      "craftItem" : "Craft a ^orange;STL Core^reset;",
+      "repairShip" : "Talk to ^orange;SAIL^reset; to restore FTL capabilities"
+    },
+
+    "compassUpdate" : 0.2,
+
+    "techstationUid" : "techstation",
+
+    // applied when quest is started
+    "shipUpgrade" : {
+      "capabilities" : ["teleport"]
+    },
+
+    "driveRepairItem" : "corefragmentore",
+    "driveRepairCount" : 20,
+
+    "driveItem" : "ce_stlcore"
+  }
+}

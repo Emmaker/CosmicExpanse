@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "ce_outpost_ancientgateway",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "ce_outpost_ancientgateway" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "ce_outpost_ancientgateway",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "ce_outpost_ancientgateway.json" ]
+    }
+  ]
+}

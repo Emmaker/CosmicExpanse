@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "volatilepowder", "count" : 10 },
+    { "item" : "ironbar", "count" : 8 },
+    { "item" : "copperbar", "count" : 6 },
+    { "item" : "silverbar", "count" : 4 },
+    { "item" : "goldbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ce_stlcore",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

@@ -1,0 +1,6 @@
+[
+  { "op" : "replace", "path" : "/naturalcave1/text", "value" : "I am detecting a variety of life signs in this mine. If you are intending to search it for a volatile resource, I may advise adequately arming yourself first." },
+  { "op" : "replace", "path" : "/naturalcave2/text", "value" : "If you are not sufficiently confident in your personal combat capabilities, I estimate the planet's core would contain many volatile resources and it may be an alternative solution." },
+  { "op" : "replace", "path" : "/pickupcorefrag/text", "value" : "These, according to records, are ^orange;Core Fragments^reset;. They should prove volatile enough for your purposes. I estimate that you will require at least 20 of them." },
+  { "op" : "replace", "path" : "/fuel/text", "value" : "^orange;Erchius Fuel^reset; for your FTL drive can be mined from moons. However, these moons have delivered unpleasant readings since Earth's destruction; great caution is advised." }
+]
