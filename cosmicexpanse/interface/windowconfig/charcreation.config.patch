@@ -1,4 +1,4 @@
 [
-  { "op" : "replace", "path" : "/paneLayout/mode/buttons/0/data/description", "value" : "No death penalties." },
-  { "op" : "replace", "path" : "/paneLayout/mode/buttons/1/data/description", "value" : "Drop items and pixels on death." }
+  { "op" : "replace", "path" : "/paneLayout/mode/buttons/0/data/description", "value" : "Eat to survive, no death penalties." },
+  { "op" : "replace", "path" : "/paneLayout/mode/buttons/1/data/description", "value" : "Drop items on death, can't beam underground." }
 ]

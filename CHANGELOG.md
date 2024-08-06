@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added a crafting recipe for the Orange Stim.
 - Added lead bars to the Ursa Miner.
 - Added icon and label to `biomeairless`.
+- Added The Six Races content.
 
 ### Changed
 
@@ -42,5 +43,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-- Removed the ability to teleport from underground on casual difficulty.
 - Removed vanilla mining tools from the Ursa Miner.
