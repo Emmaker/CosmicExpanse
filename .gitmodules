@@ -1,0 +1,3 @@
+[submodule "CommunityFramework"]
+	path = CommunityFramework
+	url = https://github.com/Emmaker/CommunityFramework
