@@ -3,7 +3,7 @@
   "description" : "null",
   "friendlyName" : "Cosmic Expanse",
   "includes" : [ "communityframework", "vanillauienhanced" ],
-    "scripts" : {
+  "scripts" : {
     "postLoad" : [ "/scripts/assets/ce_postload.lua" ]
   },
   "name" : "cosmicexpanse",
