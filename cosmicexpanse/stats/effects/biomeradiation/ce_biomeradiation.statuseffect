@@ -1,6 +1,6 @@
 {
   "name" : "ce_biomeradiation",
-  "blockingStat" : "biomeradiationImmunity",
+  "blockingStat" : "biomeradiationResist",
 
   "effectConfig" : {
     "healthPercentage" : 0.10,

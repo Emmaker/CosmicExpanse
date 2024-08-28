@@ -1,6 +1,6 @@
 {
   "name" : "ce_biomecold",
-  "blockingStat" : "biomecoldImmunity",
+  "blockingStat" : "biomecoldResist",
 
   "effectConfig" : {
     "directives" : "fade=AAAAFF=0.3",

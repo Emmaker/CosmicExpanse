@@ -4,6 +4,7 @@
   { "op" : "replace", "path" : "/description", "value" : "Cools the air around it. Helpful on ^red;dangerously hot^reset; planets." },
   { "op" : "replace", "path" : "/shortdescription", "value" : "Cooling EPP" },
 
+  { "op" : "add", "path" : "/statusEffects/-", "value" : { "stat" : "biomeheatResist", "value" : 1.0 } },
   { "op" : "remove", "path" : "/statusEffects", "search" : { "stat" : "biomecoldImmunity"} },
   { "op" : "remove", "path" : "/statusEffects", "search" : { "stat" : "biomeradiationImmunity" } },
   { "op" : "remove", "path" : "/statusEffects", "search" : { "stat" : "breathProtection" } }

@@ -1,6 +1,6 @@
 {
   "name" : "ce_biomeheat",
-  "blockingStat" : "biomeheatImmunity",
+  "blockingStat" : "biomeheatResist",
 
   "effectConfig" : {
     "tickRate" : 0.5,
