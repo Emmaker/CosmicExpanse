@@ -1,6 +1,8 @@
 [
   { "op" : "replace", "path" : "/defaultDuration", "value" : 20 },
 
+  { "op" : "add", "path" : "/effectConfig/cancelThreshold", "value" : 0.03 },
+
   { "op" : "replace", "path" : "/label", "value" : "Medkit ^gray;- 5 Health per second^reset;" },
   { "op" : "replace", "path" : "/icon", "value" : "/items/generic/other/medkit.png" }
 ]
