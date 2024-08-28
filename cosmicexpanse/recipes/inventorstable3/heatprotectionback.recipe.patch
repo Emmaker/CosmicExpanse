@@ -1,10 +1,10 @@
 [
   { "op" : "replace", "path" : "/input", "value" : [
-      { "item" : "tungstenbar", "count" : 6 },
-      { "item" : "glass", "count" : 10 },
+      { "item" : "titaniumbar", "count" : 6 },
+      { "item" : "copperbar", "count" : 4 },
       { "item" : "scorchedcore", "count" : 1 }
     ]
   },
 
-  { "op" : "replace", "path" : "/groups/0", "value" : "craftinganvil" }
+  { "op" : "replace", "path" : "/groups/0", "value" : "craftinganvil2" }
 ]
