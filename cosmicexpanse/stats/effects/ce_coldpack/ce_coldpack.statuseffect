@@ -7,6 +7,6 @@
     "ce_coldpack.lua"
   ],
 
-  "label" : "Cold Pack",
+  "label" : "Cold Pack ^gray;- Resist Mild Heat^reset;",
   "icon" : "/items/generic/other/ce_coldpack.png"
 }

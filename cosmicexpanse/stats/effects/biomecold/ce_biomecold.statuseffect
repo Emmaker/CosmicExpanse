@@ -20,6 +20,6 @@
 
   "animationConfig" : "biomecold.animation",
 
-  "label" : "Hazardous Chill",
+  "label" : "Mild Chill",
   "icon" : "/interface/statuses/biomecold.png"
   }

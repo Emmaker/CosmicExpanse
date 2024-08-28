@@ -14,6 +14,6 @@
 
   "animationConfig" : "biomeradiation.animation",
 
-  "label" : "Hazardous Radiation",
+  "label" : "Mild Radiation",
   "icon" : "/interface/statuses/biomeradioactive.png"
   }

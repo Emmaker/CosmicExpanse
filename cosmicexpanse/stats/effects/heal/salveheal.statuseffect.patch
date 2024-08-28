@@ -1,6 +1,6 @@
 [
   { "op" : "replace", "path" : "/defaultDuration", "value" : 20 },
 
-  { "op" : "replace", "path" : "/label", "value" : "Salve ^red;+2.5/s^reset;" },
+  { "op" : "replace", "path" : "/label", "value" : "Salve ^gray;- 2.5 Health per second^reset;" },
   { "op" : "replace", "path" : "/icon", "value" : "/items/generic/other/salve.png" }
 ]

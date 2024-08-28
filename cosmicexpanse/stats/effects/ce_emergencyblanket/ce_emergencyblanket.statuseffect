@@ -7,6 +7,6 @@
     "ce_emergencyblanket.lua"
   ],
 
-  "label" : "Emergency Blanket",
+  "label" : "Emergency Blanket ^gray;- Resist Mild Chill^reset;",
   "icon" : "/items/generic/other/ce_emergencyblanket.png"
 }
