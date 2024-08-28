@@ -1,4 +1,8 @@
 [
-  { "op" : "replace", "path" : "/paneLayout/mode/buttons/0/data/description", "value" : "Eat to survive, no death penalties." },
-  { "op" : "replace", "path" : "/paneLayout/mode/buttons/1/data/description", "value" : "Drop items on death, can't beam underground." }
+  { "op" : "replace", "path" : "/paneLayout/labelCasualMode/value", "value" : "NORMAL" },
+  { "op" : "replace", "path" : "/paneLayout/labelSurvivalMode/value", "value" : "EXPERT" },
+  { "op" : "replace", "path" : "/paneLayout/labelHardcoreMode/value", "value" : "HARDCORE" },
+
+  { "op" : "replace", "path" : "/paneLayout/mode/buttons/0/data/description", "value" : "Eat to survive, drop pixels on death." },
+  { "op" : "replace", "path" : "/paneLayout/mode/buttons/1/data/description", "value" : "Drop more pixels and items on death." }
 ]

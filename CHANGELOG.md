@@ -19,7 +19,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added recipes for the vanilla mining tools.
 - Added MM Upgrades for all `harvestLevel` tiers.
 - Added the Remote Teleporter.
-- Added hunger on casual difficulty.
 - Added "Cosmic Expanse - Credits" codex.
 - Added "Guide to the Matter Manipulator" codex.
 - Added a crafting recipe for the Orange Stim.
@@ -40,6 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed bandages and nanowrap bandages to heal less.
 - Changed salves and medkits to take longer to heal, and to be interrupted by damage greater than a certain percentage.
 - Changed vanilla rock materials to be collectable.
+- Changed difficulty balance.
 
 ### Removed
 

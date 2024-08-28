@@ -1,3 +1,6 @@
 [
-  { "op" : "replace", "path" : "/casual/hunger", "value" : true }
+  { "op" : "replace", "path" : "/casual/hunger", "value" : true },
+  { "op" : "replace", "path" : "/casual/allowBeamUpUnderground", "value" : false },
+
+  { "op" : "replace", "path" : "/survival/deathDropItemTypes", "value" : "all" }
 ]
