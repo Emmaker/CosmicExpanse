@@ -1,0 +1,41 @@
+{
+  "id" : "ce_tutorial1",
+  "mainQuest" : false,
+  "title" : "New Beginnings",
+  "text" : "Hey, stranger! You tell me you come from Earth? Oh, I'm sorry to hear that. On the bright side, this is probably the best planet you could get stuck on. How about I teach you a few things? Firstly, craft a Mining Table. It will take a few steps; return to me when you're done.",
+  "completionText" : "Good work, stranger! You can use that Mining Table there to craft tools and upgrades for your Matter Manipulator, assuming you have one. You are a Protector, aren't you?",
+  "moneyRange" : [50, 50],
+  "rewards" : [
+    [ ["rewardbag", 1] ]
+  ],
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/tutorial/ce_tutorial1.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+
+    "descriptions" : {
+      "craftInventors" : "Craft an ^orange;Inventor's Table^reset;",
+      "craftFurnace" : "Craft a ^orange;Primitive Furnace^reset; to smelt bars with",
+      "smeltBar" : "Smelt ^orange;Iron Bars^reset; at the ^orange;Primitive Furnace^reset;",
+      "craftMining" : "Craft a ^orange;Mining Table^reset;",
+      "returnTutorial" : "Return to the kind stranger"
+    },
+
+    "compassUpdate" : 0.2,
+
+    "inventorsItem" : "inventorstable",
+
+    "furnaceItem" : "craftingfurnace",
+
+    "barItem" : "ironbar",
+    "barCount" : 6,
+
+    "miningItem" : "ce_craftingmining",
+
+    "tutorialUid" : "tutorialcave"
+  }
+}

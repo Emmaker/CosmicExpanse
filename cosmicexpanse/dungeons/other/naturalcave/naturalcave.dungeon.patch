@@ -1,0 +1,16 @@
+[
+  { "op" : "replace", "path" : "/tiles", "search" : { "comment" : "tutorial man" }, "value" : {
+    "value" : [125, 194, 66, 255],
+    "comment" : "tutorial man",
+    "brush" : [ [ "npc",
+        {
+          "kind" : "npc",
+          "species" : "human",
+          "typeName" : "tutorial",
+          "parameters" : {
+            "scriptConfig" : { "uniqueId" : "tutorialcave" }
+          }
+        }
+      ] ]
+  } }
+]
