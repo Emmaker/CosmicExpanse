@@ -3,6 +3,9 @@
   { "op" : "replace", "path" : "/paneLayout/labelSurvivalMode/value", "value" : "EXPERT" },
   { "op" : "replace", "path" : "/paneLayout/labelHardcoreMode/value", "value" : "HARDCORE" },
 
+  { "op" : "add", "path" : "/paneLayout/mode/buttons/0/selected", "value" : true },
   { "op" : "replace", "path" : "/paneLayout/mode/buttons/0/data/description", "value" : "Eat to survive, drop pixels on death." },
-  { "op" : "replace", "path" : "/paneLayout/mode/buttons/1/data/description", "value" : "Drop more pixels and items on death." }
+
+  { "op" : "replace", "path" : "/paneLayout/mode/buttons/1/selected", "value" : false },
+  { "op" : "replace", "path" : "/paneLayout/mode/buttons/1/data/description", "value" : "Drop more pixels and all items on death." }
 ]
