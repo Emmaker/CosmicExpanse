@@ -1,4 +1,4 @@
-# [Changelog](CHANGELOG.md) | [Discord](https://discord.gg/jQJqkg3VCK)
+# [Changelog](CHANGELOG.md) | [Credits](CREDITS.md) | [Discord](https://discord.gg/jQJqkg3VCK)
 
 ![logo](.art/logo/logo.png)
 
@@ -26,14 +26,3 @@ Anyone may fork this repository and submit a pull request. However, only pull re
 - The changes in the pull request must not intentionally obstruct the functionality of another feature or another mod's features
 - The changes in the pull request must not attack or slander another person or group
 - The changes in the pull request must not contain nudity, excesive gore/violence, or bigotry against real world people or groups
-
-## Credits
-
-Credits can be viewed in-game through the ``Cosmic Expanse - Credits`` codex, but a seperate list of credits will be kept here for easy refence. This list may be inaccurate or outdated, however, so use it at your own discretion:
-- Emmaker - Project lead, coder
-- Kotyarendj - Sprite artist
-- Roll'eG - Sprite artist
-- Abstrusity - Sprite artist
-- Stranger Danger - Ideas guy
-- mailboxmacneil - Mascot
-- Degranon - Major annoyance
