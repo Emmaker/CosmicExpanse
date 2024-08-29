@@ -7,13 +7,13 @@
 
   { "op" : "replace", "path" : "/priceLabel/position", "value" : [ 130, 23 ] },
 
-  { "op" : "replace", "path" : "/objectImage/position", "value" : [ 30, 104 ] },
+  { "op" : "replace", "path" : "/objectImage/position", "value" : [ 30, 88 ] },
 
-  { "op" : "replace", "path" : "/descriptionLabel/position", "value" : [ 64, 134 ] },
+  { "op" : "replace", "path" : "/descriptionLabel/position", "value" : [ 64, 118 ] },
   { "op" : "replace", "path" : "/descriptionLabel/wrapWidth", "value" : 85 },
 
-  { "op" : "add", "path" : "/statusList/columns", "value" : 2 },
-  { "op" : "replace", "path" : "/statusList/position", "value" : [ -54, 70 ] },
+  { "op" : "replace", "path" : "/statusList/fillDown", "value" : false },
+  { "op" : "replace", "path" : "/statusList/position", "value" : [ -55, 70 ] },
   { "op" : "replace", "path" : "/statusList/schema/spacing", "value" : [ 4, 4 ] },
   { "op" : "replace", "path" : "/statusList/schema/memberSize", "value" : [ 70, 12 ] }
 ]
