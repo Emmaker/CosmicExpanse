@@ -7,6 +7,6 @@
     "ce_leadblanket.lua"
   ],
 
-  "label" : "Lead Blanket ^gray;- Resist Mild Radiation^reset;",
+  "label" : "Lead Blanket ^gray;Resist Mild Radiation^reset;",
   "icon" : "/items/generic/other/ce_leadblanket.png"
 }

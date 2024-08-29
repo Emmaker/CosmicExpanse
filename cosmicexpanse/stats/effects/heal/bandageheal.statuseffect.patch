@@ -1,6 +1,6 @@
 [
   { "op" : "replace", "path" : "/effectConfig/healAmount", "value" : 10 },
 
-  { "op" : "replace", "path" : "/label", "value" : "Bandage ^gray;- 10 Health per second^reset;" },
+  { "op" : "replace", "path" : "/label", "value" : "Bandage ^gray;10 Health per second^reset;" },
   { "op" : "replace", "path" : "/icon", "value" : "/items/generic/other/bandage.png" }
 ]

@@ -1,6 +1,6 @@
 [
   { "op" : "replace", "path" : "/effectConfig/healAmount", "value" : 25 },
 
-  { "op" : "replace", "path" : "/label", "value" : "Nanowrap Bandage ^gray;- 25 Health per second^reset;" },
+  { "op" : "replace", "path" : "/label", "value" : "Nanowrap Bandage ^gray;25 Health per second^reset;" },
   { "op" : "replace", "path" : "/icon", "value" : "/items/generic/other/nanowrap.png" }
 ]
