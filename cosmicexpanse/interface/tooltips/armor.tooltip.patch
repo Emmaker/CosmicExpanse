@@ -3,17 +3,17 @@
   { "op" : "replace", "path" : "/background/fileBody", "value" : "/interface/tooltips/ce_bodyarmor.png" },
   { "op" : "replace", "path" : "/background/fileFooter", "value" : "/interface/tooltips/ce_footerarmor.png" },
 
-  { "op" : "replace", "path" : "/moneyIcon/position", "value" : [ 117, 23 ] },
+  { "op" : "replace", "path" : "/moneyIcon/position", "value" : [ 263, 23 ] },
 
-  { "op" : "replace", "path" : "/priceLabel/position", "value" : [ 130, 23 ] },
+  { "op" : "replace", "path" : "/priceLabel/position", "value" : [ 276, 23 ] },
 
   { "op" : "replace", "path" : "/objectImage/position", "value" : [ 30, 88 ] },
 
   { "op" : "replace", "path" : "/descriptionLabel/position", "value" : [ 64, 118 ] },
-  { "op" : "replace", "path" : "/descriptionLabel/wrapWidth", "value" : 85 },
+  { "op" : "replace", "path" : "/descriptionLabel/wrapWidth", "value" : 228 },
 
-  { "op" : "replace", "path" : "/statusList/fillDown", "value" : false },
-  { "op" : "replace", "path" : "/statusList/position", "value" : [ -55, 70 ] },
+  { "op" : "add", "path" : "/statusList/columns", "value" : 4 },
+  { "op" : "replace", "path" : "/statusList/position", "value" : [ -55, 54 ] },
   { "op" : "replace", "path" : "/statusList/schema/spacing", "value" : [ 4, 4 ] },
   { "op" : "replace", "path" : "/statusList/schema/memberSize", "value" : [ 70, 12 ] }
 ]
