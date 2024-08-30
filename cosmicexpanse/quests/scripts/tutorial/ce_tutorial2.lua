@@ -8,14 +8,12 @@ function init()
   self.compassUpdate = config.getParameter("compassUpdate", 0.5)
   self.descriptions = config.getParameter("descriptions")
 
-  self.inventorsItem = config.getParameter("inventorsItem")
+  self.medicalItem = config.getParameter("medicalItem")
 
-  self.furnaceItem = config.getParameter("furnaceItem")
+  self.ingredient1 = config.getParameter("ingredient1")
+  self.ingredient2 = config.getParameter("ingredient2")
 
-  self.barItem = config.getParameter("barItem")
-  self.barCount = config.getParameter("barCount")
-
-  self.miningItem = config.getParameter("miningItem")
+  self.medicineItem = config.getParameter("medicineItem")
 
   self.tutorialUid = config.getParameter("tutorialUid")
 
@@ -23,10 +21,10 @@ function init()
 
   storage.stage = storage.stage or 1
   self.stages = {
-    craftInventors,
-    craftFurnace,
-    smeltBar,
-    craftMining,
+    craftMedical,
+    collectIngredient1,
+    collectIngredient2,
+    craftMedicine,
     returnTutorial
   }
 
@@ -48,13 +46,13 @@ function update(dt)
   end
 end
 
-function craftInventors()
+function craftMedical()
   quest.setProgress(nil)
   quest.setCompassDirection(nil)
 
   while storage.stage == 1 do
-    quest.setObjectiveList({{self.descriptions.craftInventors, false}})
-    if player.hasItem(self.inventorsItem) then
+    quest.setObjectiveList({{self.descriptions.craftMedical, false}})
+    if player.hasItem(self.medicalItem) then
       storage.stage = 2
     end
     coroutine.yield()
@@ -65,14 +63,14 @@ function craftInventors()
   self.state:set(self.stages[storage.stage])
 end
 
-function craftFurnace()
+function collectIngredient1()
   quest.setProgress(nil)
   quest.setCompassDirection(nil)
 
   while storage.stage == 2 do
-    quest.setObjectiveList({{self.descriptions.craftFurnace, false}})
+    quest.setObjectiveList({{self.descriptions.collectIngredient1, false}})
 
-    if player.hasItem(self.furnaceItem) then
+    if player.hasItem(self.ingredient1) then
       storage.stage = 3
     end
     coroutine.yield()
@@ -83,14 +81,17 @@ function craftFurnace()
   self.state:set(self.stages[storage.stage])
 end
 
-function smeltBar()
+function collectIngredient2()
+  quest.setProgress(nil)
   quest.setCompassDirection(nil)
 
   while storage.stage == 3 do
-    quest.setObjectiveList({{self.descriptions.smeltBar, false}})
-    quest.setProgress(player.hasCountOfItem(self.barItem) / self.barCount)
-    if player.hasItem({name = self.barItem, count = self.barCount}) then
+    quest.setObjectiveList({{self.descriptions.collectIngredient2, false}})
+
+    if player.hasItem(self.ingredient2) then
       storage.stage = 4
+    elseif not player.hasItem(self.ingredient1) then
+      storage.stage = 2
     end
     coroutine.yield()
   end
@@ -100,16 +101,16 @@ function smeltBar()
   self.state:set(self.stages[storage.stage])
 end
 
-function craftMining()
+function craftMedicine()
   quest.setProgress(nil)
   quest.setCompassDirection(nil)
 
   while storage.stage == 4 do
-    quest.setObjectiveList({{self.descriptions.craftMining, false}})
+    quest.setObjectiveList({{self.descriptions.craftMedicine, false}})
 
-    if player.hasItem(self.miningItem) then
+    if player.hasItem(self.medicineItem) then
       storage.stage = 5
-    elseif not player.hasItem({name = self.barItem, count = self.barCount}) then
+    elseif not player.hasItem(self.ingredient2) then
       storage.stage = 3
     end
     coroutine.yield()

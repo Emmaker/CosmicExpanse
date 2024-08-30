@@ -1,0 +1,40 @@
+{
+  "id" : "ce_tutorial2",
+  "prerequisites" : [ "ce_tutorial1" ],
+  "mainQuest" : false,
+  "title" : "Other Worlds",
+  "text" : "Not all planets are like this one, you know. Most of them are dangerous, with mild or even deadly climates. Luckily, we have ways to survive those climates! Craft an ^orange;Emergency Blanket^reset; at an ^orange;Apothecary^reset;, then return to me.",
+  "completionText" : "Consumables like that ^orange;Emergency Blanket^reset; will allow you to survive mild climates for roughly ten minutes, and with advanced enough materials you can make ^orange;EPPs^reset; that will allow you to survive even harsher climates!",
+  "moneyRange" : [50, 50],
+  "rewards" : [
+    [ ["rewardbag", 1] ]
+  ],
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/tutorial/ce_tutorial2.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+
+    "descriptions" : {
+      "craftMedical" : "Craft an ^orange;Apothecary^reset;",
+      "collectIngredient1" : "Collect a ^orange;Silver Bar^reset;",
+      "collectIngredient2" : "Collect a ^orange;Woven Fabric^reset;",
+      "craftMedicine" : "Craft an ^orange;Emergency Blanket^reset;",
+      "returnTutorial" : "Return to the kind stranger"
+    },
+
+    "compassUpdate" : 0.2,
+
+    "medicalItem" : "craftingmedical",
+
+    "ingredient1" : "silverbar",
+    "ingredient2" : "fabric",
+
+    "medicineItem" : "ce_emergencyblanket",
+
+    "tutorialUid" : "tutorialcave"
+  }
+}

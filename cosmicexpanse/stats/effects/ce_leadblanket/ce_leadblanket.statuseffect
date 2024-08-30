@@ -1,7 +1,7 @@
 {
   "name" : "ce_leadblanket",
   "effectConfig" : {},
-  "defaultDuration" : 300,
+  "defaultDuration" : 600,
 
   "scripts" : [
     "ce_leadblanket.lua"

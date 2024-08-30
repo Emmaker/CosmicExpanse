@@ -1,7 +1,7 @@
 {
   "name" : "ce_coldpack",
   "effectConfig" : {},
-  "defaultDuration" : 300,
+  "defaultDuration" : 600,
 
   "scripts" : [
     "ce_coldpack.lua"
