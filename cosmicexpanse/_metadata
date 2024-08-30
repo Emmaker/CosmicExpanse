@@ -1,11 +1,14 @@
 {
-  "author" : "JamesTheMaker",
-  "description" : "null",
+  "author" : "Emmaker",
   "friendlyName" : "Cosmic Expanse",
-  "includes" : [ "communityframework", "vanillauienhanced" ],
-  "scripts" : {
-    "postLoad" : [ "/scripts/assets/ce_postload.lua" ]
-  },
+  "includes" : ["base", "opensb_base", "communityframework"],
+  "link" : "steam://url/CommunityFilePage/3320466342",
   "name" : "cosmicexpanse",
-  "priority" : -9999
+  "priority" : -9999,
+  "scripts" : {
+    "postLoad" : ["/scripts/assets/ce_postload.lua"]
+  },
+  "steamContentId" : "3320466342",
+  "tags" : "Crafting and Building|Miscellaneous|Planets and Environments|NPCs and Creatures|Weapons|Quests|Dungeons|Ships|Species|User Interface|Furniture and Objects|Character Improvements|Food and Farming|In-Game Tools|Mechanics|Vehicles and Mounts|Armor and Clothes",
+  "version" : "0.0.1"
 }
