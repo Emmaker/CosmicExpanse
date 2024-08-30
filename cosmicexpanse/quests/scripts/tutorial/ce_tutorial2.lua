@@ -11,7 +11,9 @@ function init()
   self.medicalItem = config.getParameter("medicalItem")
 
   self.ingredient1 = config.getParameter("ingredient1")
+  self.ingredient1Count = config.getParameter("ingredient1Count")
   self.ingredient2 = config.getParameter("ingredient2")
+  self.ingredient2Count = config.getParameter("ingredient2Count")
 
   self.medicineItem = config.getParameter("medicineItem")
 
@@ -64,13 +66,12 @@ function craftMedical()
 end
 
 function collectIngredient1()
-  quest.setProgress(nil)
   quest.setCompassDirection(nil)
 
   while storage.stage == 2 do
     quest.setObjectiveList({{self.descriptions.collectIngredient1, false}})
-
-    if player.hasItem(self.ingredient1) then
+    quest.setProgress(player.hasCountOfItem(self.ingredient1) / self.ingredient1Count)
+    if player.hasItem({name = self.ingredient1, count = self.ingredient1Count}) then
       storage.stage = 3
     end
     coroutine.yield()
@@ -87,10 +88,10 @@ function collectIngredient2()
 
   while storage.stage == 3 do
     quest.setObjectiveList({{self.descriptions.collectIngredient2, false}})
-
-    if player.hasItem(self.ingredient2) then
+    quest.setProgress(player.hasCountOfItem(self.ingredient2) / self.ingredient2Count)
+    if player.hasItem({name = self.ingredient2, count = self.ingredient2Count}) then
       storage.stage = 4
-    elseif not player.hasItem(self.ingredient1) then
+    elseif not player.hasItem({name = self.ingredient1, count = self.ingredient1Count}) then
       storage.stage = 2
     end
     coroutine.yield()
@@ -110,7 +111,7 @@ function craftMedicine()
 
     if player.hasItem(self.medicineItem) then
       storage.stage = 5
-    elseif not player.hasItem(self.ingredient2) then
+    elseif not player.hasItem({name = self.ingredient2, count = self.ingredient2Count}) then
       storage.stage = 3
     end
     coroutine.yield()

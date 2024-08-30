@@ -20,8 +20,8 @@
 
     "descriptions" : {
       "craftMedical" : "Craft an ^orange;Apothecary^reset;",
-      "collectIngredient1" : "Collect a ^orange;Silver Bar^reset;",
-      "collectIngredient2" : "Collect a ^orange;Woven Fabric^reset;",
+      "collectIngredient1" : "Smelt a ^orange;Silver Bar^reset;",
+      "collectIngredient2" : "Craft some ^orange;Woven Fabric^reset;",
       "craftMedicine" : "Craft an ^orange;Emergency Blanket^reset;",
       "returnTutorial" : "Return to the kind stranger"
     },
@@ -31,7 +31,9 @@
     "medicalItem" : "craftingmedical",
 
     "ingredient1" : "silverbar",
+    "ingredient1Count" : 1,
     "ingredient2" : "fabric",
+    "ingredient2Count" : 2,
 
     "medicineItem" : "ce_emergencyblanket",
 
