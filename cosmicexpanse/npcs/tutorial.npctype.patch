@@ -6,7 +6,7 @@
 
   { "op" : "add", "path" : "/scriptConfig/turnInQuests", "value" : [ "ce_tutorial1", "ce_tutorial2" ] },
 
-  // New dialog
+  // New dialogue
   { "op" : "replace", "path" : "/scriptConfig/dialog/converse/human/default", "value" : [
     "Hey, stranger! Be careful if you plan on going down into the mine, it's old... predates even the Protectorate!",
     "I haven't seen a new face in some time! Do you want tips on surviving? Because I have plenty!",

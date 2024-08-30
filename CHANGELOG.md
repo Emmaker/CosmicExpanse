@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Changed duration of hazard consumables to 10 minutes.
+- Changed tutorial NPC dialogue.
 
 ### Removed
 
