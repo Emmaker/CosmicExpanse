@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Changed duration of hazard consumables to 10 minutes.
 
+### Removed
+
+- Removed "Guide to the Matter Manipulator" codex.
+
 ## 0.0.1
 
 ### Added
@@ -29,7 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added recipes for the vanilla mining tools.
 - Added MM Upgrades for all `harvestLevel` tiers.
 - Added the Remote Teleporter.
-- Added "Cosmic Expanse - Credits" codex.
 - Added "Guide to the Matter Manipulator" codex.
 - Added a crafting recipe for the Orange Stim.
 - Added lead bars to the Ursa Miner.

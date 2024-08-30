@@ -29,20 +29,5 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "orangestim" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_coldpack" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_emergencyblanket" },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_leadblanket" },
-
-  // defaultCodexes
-  { "op" : "add", "path" : "/defaultCodexes/glitch/-", "value" : "ce_protectoratecodex3" },
-
-  { "op" : "add", "path" : "/defaultCodexes/human/-", "value" : "ce_protectoratecodex3" },
-
-  { "op" : "add", "path" : "/defaultCodexes/avian/-", "value" : "ce_protectoratecodex3" },
-
-  { "op" : "add", "path" : "/defaultCodexes/apex/-", "value" : "ce_protectoratecodex3" },
-
-  { "op" : "add", "path" : "/defaultCodexes/floran/-", "value" : "ce_protectoratecodex3" },
-
-  { "op" : "add", "path" : "/defaultCodexes/hylotl/-", "value" : "ce_protectoratecodex3" },
-
-  { "op" : "add", "path" : "/defaultCodexes/novakid/-", "value" : "ce_protectoratecodex3" }
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_leadblanket" }
 ]
