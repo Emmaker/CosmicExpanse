@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added two new tabs to Inventor's Table.
 - Added guide Datapad.
 
+### Changed
+
+- Changed tutorial quest to be abandonable.
+
 ### Removed
 
 - Removed blockingStat from hazard consumables.

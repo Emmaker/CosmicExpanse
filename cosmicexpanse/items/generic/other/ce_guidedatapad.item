@@ -1,0 +1,11 @@
+{
+  "itemName" : "ce_guidedatapad",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "codex",
+  "inventoryIcon" : "ce_guidedatapad.png",
+  "description" : "An old datapad. The internal drive may still be recovered.",
+  "shortdescription" : "Damaged Datapad"
+}
