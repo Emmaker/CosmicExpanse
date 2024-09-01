@@ -9,9 +9,7 @@
   "effects" : [
     [ "ce_coldpack" ]
   ],
-  "blockingEffects" : [
-    "ce_coldpack"
-  ],
+  "blockingEffects" : [ ],
   "emote" : "",
   "emitters" : []
 }

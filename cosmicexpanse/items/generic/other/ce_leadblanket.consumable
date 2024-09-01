@@ -9,9 +9,7 @@
   "effects" : [
     [ "ce_leadblanket" ]
   ],
-  "blockingEffects" : [
-    "ce_leadblanket"
-  ],
+  "blockingEffects" : [ ],
   "emote" : "",
   "emitters" : []
 }

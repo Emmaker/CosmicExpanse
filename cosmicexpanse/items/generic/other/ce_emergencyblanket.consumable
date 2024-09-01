@@ -9,9 +9,7 @@
   "effects" : [
     [ "ce_emergencyblanket" ]
   ],
-  "blockingEffects" : [
-    "ce_emergencyblanket"
-  ],
+  "blockingEffects" : [ ],
   "emote" : "",
   "emitters" : []
 }
