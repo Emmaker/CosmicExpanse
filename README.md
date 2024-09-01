@@ -1,4 +1,4 @@
-# [Changelog](CHANGELOG.md) | [Credits](CREDITS.md) | [Discord](https://discord.gg/jQJqkg3VCK)
+# [Discord](https://discord.gg/jQJqkg3VCK) | [Changelog](CHANGELOG.md) | [Credits](CREDITS.md) | [License](LICENSE.md)
 
 ![logo](.art/logo/logo.png)
 
