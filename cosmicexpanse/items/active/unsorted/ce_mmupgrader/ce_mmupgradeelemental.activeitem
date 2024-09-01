@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "upgradeComponent",
-  "description" : "Upgrades your Matter Manipulator to mine solarium.\n^gray;Left click to upgrade.^reset;",
+  "description" : "Upgrades your Matter Manipulator to mine solarium.\n^gray;Activate to upgrade.^reset;",
   "shortdescription" : "^orange;Elemental MM Upgrade^reset;",
 
   "inventoryIcon" : "ce_mmupgradeelemental.png",

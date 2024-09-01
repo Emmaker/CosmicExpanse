@@ -1,0 +1,8 @@
+[
+  { "op" : "add", "path" : "/tabs/codex/-", "value" : {
+    "name" : "Guide",
+    "data" : "ce_guide",
+    "icon" : "ce_tab_guide.png",
+    "weight" : 10000
+  } }
+]

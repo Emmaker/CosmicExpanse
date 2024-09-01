@@ -1,0 +1,21 @@
+{
+  "itemName" : "ce_guidedatapadfixed",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "codex",
+  "description" : "An old datapad.\n^gray;Activate to add guides to Lexicon.^reset;",
+  "shortdescription" : "Repaired Datapad",
+
+  "inventoryIcon" : "ce_guidedatapadfixed.png",
+  "scripts" : [ "ce_guidedatapadfixed.lua" ],
+
+  "swingTime" : 0.30,
+
+  "codices" : [
+    "/codex/human/humanhistory1.codex",
+    "/codex/human/humanhistory2.codex",
+    "/codex/human/humanhistory3.codex"
+  ]
+}

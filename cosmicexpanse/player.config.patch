@@ -11,6 +11,8 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "silverdrill" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "silverpickaxe" },
 
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_guidedatapadfixed" },
+
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_mmupgradeiron" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_mmupgradetungsten" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_mmupgradetitanium" },

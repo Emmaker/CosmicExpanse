@@ -7,8 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+
+- Added two new tabs to Inventor's Table.
+- Added guide Datapad.
+
 ### Removed
- - Removed blockingStat from hazard consumables.
+
+- Removed blockingStat from hazard consumables.
 
 ## 0.1.0
 

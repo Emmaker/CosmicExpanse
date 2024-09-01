@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "upgradeComponent",
-  "description" : "Upgrades your Matter Manipulator to mine aegisalt, ferozium, and violium.\n^gray;Left click to upgrade.^reset;",
+  "description" : "Upgrades your Matter Manipulator to mine aegisalt, ferozium, and violium.\n^gray;Activate to upgrade.^reset;",
   "shortdescription" : "^orange;Durasteel MM Upgrade^reset;",
 
   "inventoryIcon" : "ce_mmupgradedurasteel.png",

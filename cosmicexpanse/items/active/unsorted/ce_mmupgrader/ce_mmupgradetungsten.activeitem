@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "upgradeComponent",
-  "description" : "Upgrades your Matter Manipulator to mine titanium.\n^gray;Left click to upgrade.^reset;",
+  "description" : "Upgrades your Matter Manipulator to mine titanium.\n^gray;Activate to upgrade.^reset;",
   "shortdescription" : "^orange;Tungsten MM Upgrade^reset;",
 
   "inventoryIcon" : "ce_mmupgradetungsten.png",

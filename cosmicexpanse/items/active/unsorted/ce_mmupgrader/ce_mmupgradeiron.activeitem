@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "upgradeComponent",
-  "description" : "Upgrades your Matter Manipulator to mine tungsten.\n^gray;Left click to upgrade.^reset;",
+  "description" : "Upgrades your Matter Manipulator to mine tungsten.\n^gray;Activate to upgrade.^reset;",
   "shortdescription" : "^orange;Iron MM Upgrade^reset;",
 
   "inventoryIcon" : "ce_mmupgradeiron.png",

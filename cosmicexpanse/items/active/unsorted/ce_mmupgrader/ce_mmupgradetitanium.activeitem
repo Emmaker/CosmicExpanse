@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "upgradeComponent",
-  "description" : "Upgrades your Matter Manipulator to mine durasteel.\n^gray;Left click to upgrade.^reset;",
+  "description" : "Upgrades your Matter Manipulator to mine durasteel.\n^gray;Activate to upgrade.^reset;",
   "shortdescription" : "^orange;Titanium MM Upgrade^reset;",
 
   "inventoryIcon" : "ce_mmupgradetitanium.png",
