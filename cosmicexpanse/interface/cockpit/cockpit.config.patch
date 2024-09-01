@@ -6,6 +6,9 @@
     }
   },
 
+  // jumpFuelCost
+  { "op" : "replace", "path" : "/jumpFuelCost", "value" : 50 },
+
   // starTypeNames
   { "op" : "replace", "path" : "/starTypeNames/whitestar", "value" : "Risky Star" },
   { "op" : "replace", "path" : "/starTypeNames/orangestar", "value" : "Gentle Star" },

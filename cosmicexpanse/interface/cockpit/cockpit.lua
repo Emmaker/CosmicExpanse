@@ -405,7 +405,14 @@ end
 -- Helpers
 
 function fuelCost()
-  local cost = config.getParameter("jumpFuelCost")
+  local cost = ( config.getParameter("jumpFuelCost") )
+
+  local origin = celestial.currentSystem().location
+  local destination = self.travel.system or destination
+
+  local distance = math.sqrt( ((origin[1] - destination[1]) ^ 2) + ((origin[2] - destination[2]) ^ 2) )
+
+  cost = math.log(distance) * cost
   return util.round(cost - cost * (world.getProperty("ship.fuelEfficiency") or 0.0))
 end
 
