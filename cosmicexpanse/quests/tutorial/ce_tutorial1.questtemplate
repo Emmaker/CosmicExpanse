@@ -1,6 +1,6 @@
 {
   "id" : "ce_tutorial1",
-  "mainQuest" : false,
+  "mainQuest" : true,
   "title" : "New Beginnings",
   "text" : "Hey, stranger! You tell me you come from Earth? Oh, I'm sorry to hear that. On the bright side, this is probably the best planet you could get stuck on. How about I teach you a few things? Firstly, craft a ^orange;Mining Table^reset;. It will take a few steps; return to me when you're done.",
   "completionText" : "Good work, stranger! You can use that Mining Table there to craft tools and upgrades for your Matter Manipulator, assuming you have one. You are a Protector, aren't you?",
@@ -8,7 +8,7 @@
   "rewards" : [
     [ ["rewardbag", 1] ]
   ],
-  "canBeAbandoned" : false,
+  "canBeAbandoned" : true,
   "updateDelta" : 10,
   "script" : "/quests/scripts/tutorial/ce_tutorial1.lua",
   "scriptConfig" : {

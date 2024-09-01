@@ -1,7 +1,7 @@
 {
   "id" : "ce_tutorial2",
   "prerequisites" : [ "ce_tutorial1" ],
-  "mainQuest" : false,
+  "mainQuest" : true,
   "title" : "Other Worlds",
   "text" : "Not all planets are like this one, you know. Most of them are dangerous, with mild or even deadly climates. Luckily, we have ways to survive those climates! Craft an ^orange;Emergency Blanket^reset; at an ^orange;Apothecary^reset;, then return to me.",
   "completionText" : "Consumables like that ^orange;Emergency Blanket^reset; will allow you to survive mild climates for roughly ten minutes, and with advanced enough materials you can make ^orange;EPPs^reset; that will allow you to survive even harsher climates!",
@@ -9,7 +9,7 @@
   "rewards" : [
     [ ["rewardbag", 1] ]
   ],
-  "canBeAbandoned" : false,
+  "canBeAbandoned" : true,
   "updateDelta" : 10,
   "script" : "/quests/scripts/tutorial/ce_tutorial2.lua",
   "scriptConfig" : {
