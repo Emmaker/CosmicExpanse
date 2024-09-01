@@ -2,6 +2,11 @@
 
 <https://polyformproject.org/licenses/shield/1.0.0>
 
+This does NOT take precendent over the
+[Chucklefish Mod Terms](https://community.playstarbound.com/help/mod-terms/),
+which all mods for Starbound must agree to. As such, Chucklefish Limited's
+parent license is exempt of limitations of the PolyForm Shield License.
+
 ## Acceptance
 
 In order to get any license under these terms, you must agree
