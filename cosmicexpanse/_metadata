@@ -1,7 +1,7 @@
 {
   "author" : "Emmaker",
   "friendlyName" : "Cosmic Expanse",
-  "includes" : ["base", "opensb_base", "communityframework"],
+  "requires" : ["base", "opensb_base", "communityframework"],
   "link" : "steam://url/CommunityFilePage/3320466342",
   "name" : "cosmicexpanse",
   "priority" : -9999,
