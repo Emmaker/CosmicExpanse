@@ -1,13 +1,13 @@
 {
-  "itemName" : "ce_leadblanket",
+  "itemName" : "ce_leadplating",
   "price" : 50,
   "rarity" : "Common",
   "category" : "medicine",
-  "inventoryIcon" : "ce_leadblanket.png",
+  "inventoryIcon" : "ce_leadplating.png",
   "description" : "Keeps those gamma waves off you. Provides temporary resistance on planets with ^red;high radiation levels^reset;.",
-  "shortdescription" : "Lead Blanket",
+  "shortdescription" : "Lead Plating",
   "effects" : [
-    [ "ce_leadblanket" ]
+    [ "ce_leadplating" ]
   ],
   "blockingEffects" : [ ],
   "emote" : "",

@@ -1,0 +1,12 @@
+{
+  "name" : "ce_leadplating",
+  "effectConfig" : {},
+  "defaultDuration" : 600,
+
+  "scripts" : [
+    "ce_leadplating.lua"
+  ],
+
+  "label" : "Lead Plating ^gray;Resist Mild Radiation^reset;",
+  "icon" : "/items/generic/other/ce_leadplating.png"
+}

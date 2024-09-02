@@ -31,5 +31,5 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "orangestim" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_coldpack" },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_emergencyblanket" },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_leadblanket" }
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : "ce_leadplating" }
 ]
