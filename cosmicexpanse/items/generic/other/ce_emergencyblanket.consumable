@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "medicine",
   "inventoryIcon" : "ce_emergencyblanket.png",
-  "description" : "For when you're cold. Provides temporary resistance on ^red;dangerously cold^reset; planets.",
+  "description" : "For when you're cold. Provides temporary resistance on ^red;mildly cold^reset; planets.",
   "shortdescription" : "Emergency Blanket",
   "effects" : [
     [ "ce_emergencyblanket" ]

@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "medicine",
   "inventoryIcon" : "ce_coldpack.png",
-  "description" : "Use it to cool yourself down. Provides temporary resistance on ^red;dangerously hot^reset; planets.",
+  "description" : "Use it to cool yourself down. Provides temporary resistance on ^red;mildly hot^reset; planets.",
   "shortdescription" : "Cold Pack",
   "effects" : [
     [ "ce_coldpack" ]

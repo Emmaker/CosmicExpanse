@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "medicine",
   "inventoryIcon" : "ce_leadplating.png",
-  "description" : "Keeps those gamma waves off you. Provides temporary resistance on planets with ^red;high radiation levels^reset;.",
+  "description" : "Keeps those gamma waves off you. Provides temporary resistance on planets with ^red;mild radiation levels^reset;.",
   "shortdescription" : "Lead Plating",
   "effects" : [
     [ "ce_leadplating" ]
