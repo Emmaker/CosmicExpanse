@@ -18,7 +18,8 @@ function update(dt, fireMode, shiftHeld)
 
     activeItem.setArmAngle((-math.pi / 2) * (self.swingTimer / self.swingTime))
 
-    if self.swingTimer == 0 then
+    if self.swingTimer == 0 and not self.doOnce then
+      self.doOnce = true
       upgradeMM()
     end
   end
