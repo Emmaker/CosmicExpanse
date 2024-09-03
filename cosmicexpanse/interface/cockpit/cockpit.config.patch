@@ -1,4 +1,31 @@
 [
+  // visitableTypeDescription
+  { "op" : "replace", "path" : "/visitableTypeDescription/forest", "value" : [
+    "Densely colonized by trees and other flora, this ^red;mildly toxic ^#15ce02;forest ^white;landing site is a hospitable location that supports a diversity of life - potentially including your own.",
+    "Leafy trees abound in this ^#15ce02;forest ^white;location. The area is hospitable to life, most of which produce ^red;mild toxicity^reset;.",
+    "Your beam site for this planet is located in a ^#15ce02;forest^white;. Readings indicate that this wooded area is relatively tranquil, setting aside the ^red;mild toxicity^white;."
+  ] },
+  { "op" : "replace", "path" : "/visitableTypeDescription/desert", "value" : [
+    "There is limited flora here, due to the ^red;mild heat ^white;on the surface. There is also an abundance of sand. Simply put, it is a ^#e6c801;desert^white;.",
+    "A ^#e6c801;desert^white; area populated by cacti, as well as various animal life. A relatively safe landing site, so long as you can survive the ^red;mild heat^white;.",
+    "Sand. Readings indicate sand. Also some cacti... but predominantly sand. Given the available information and the ^red;mild heat ^white;I speculate that the landing site is situated in a ^#e6c801;desert^white;."
+  ] },
+  { "op" : "replace", "path" : "/visitableTypeDescription/snow", "value" : [
+    "This ^red;mildly chilly ^white;landing site is laden with ^#69f1fd;snow^white;. Sundry trees grow here and various animals also thrive in the cold conditions. An excellent place to make snowballs.",
+    "The landing location is ^red;mildly cold^white;. ^#69f1fd;Snow^white; covers the area and blizzards are a possibility. A hat and gloves may be advisable.",
+    "This location has a ^red;mild chill^white;, and ^#69f1fd;snow^white; lies thickly on the ground. My sensors indicate that there are critters scampering through the soft blanket of white."
+  ] },
+  { "op" : "replace", "path" : "/visitableTypeDescription/savannah", "value" : [
+    "The landing site is situated in an area of ^#ffe21d;dry grassland ^white;that is ^red;mildly hot ^white;and prone to dust storms. It is neither especially pleasant, nor especially dangerous.",
+    "This area of ^#ffe21d;dry grassland ^white;is sparsely populated by trees. Despite the ^red;mild heat^white;, it is not excessively inhospitable - readings indicate that there is a hare bouncing around.",
+    "The landing location is located in an area of ^#ffe21d;dry grassland^white;. Trees and shrubs grow sparsely in the ^red;mild heat^white;. A dusty place of wide, flat vistas."
+  ] },
+  { "op" : "replace", "path" : "/visitableTypeDescription/ocean", "value" : [
+    "A planet of ^red;mildly cold ^#008aff;oceans ^white;and small islands. My readings indicate that aquatic life is abundant and that the islets of the surface are extremely picturesque.",
+    "An ^#008aff;ocean^white; covered planet spotted with islands and teeming with life. My readings indicate that there is a great deal of activity in the depths of the ^red;mildly chilly ^white;waters.",
+    "Floating desert islands pepper the surface of this ^#008aff;ocean^white; planet. An environment of tropical ambiance and aesthetic, with a ^red;mild chill ^white;sweeping the surface."
+  ] },
+
   // displayOres
   { "op" : "add", "path" : "/displayOres/lead", "value" : {
       "displayName" : "Lead",

@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed tutorial quest to be abandonable.
 - Changed Lead Blanket into Lead Plating.
 - Changed description of hazard consumables.
+- Changed description of Desert, Forest, Ocean, Savannah, and Snow planets.
+- Changed description of Durasteel Bar, Refined Aegisalt, Refined Ferozium, Refined Violium, and Solarium Star.
 
 ### Removed
 
