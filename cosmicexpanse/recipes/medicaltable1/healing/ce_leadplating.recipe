@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ce_leadbar", "count" : 1 },
+    { "item" : "ce_leadbar", "count" : 2 },
     { "item" : "fabric", "count" : 2 }
   ],
   "output" : {
