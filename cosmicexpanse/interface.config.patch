@@ -1,0 +1,33 @@
+[
+  { "op" : "replace", "path" : "/mainBar/size", "value" : [ 25, 150 ] },
+
+  { "op" : "replace", "path" : "/mainBar/questLog/base", "value" : "/assetmissing.png" },
+  { "op" : "replace", "path" : "/mainBar/questLog/open", "value" : "/assetmissing.png" },
+  { "op" : "replace", "path" : "/mainBar/questLog/pos", "value" : [ 0, 0 ] },
+  { "op" : "replace", "path" : "/mainBar/questLog/poly", "value" : [ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ] },
+
+  { "op" : "replace", "path" : "/mainBar/inventory/glow", "value" : "/interface/inventory.png" },
+  { "op" : "replace", "path" : "/mainBar/inventory/glowHover", "value" : "/interface/inventoryhover.png" },
+  { "op" : "replace", "path" : "/mainBar/inventory/pos", "value" : [ 0, 100 ] },
+  { "op" : "replace", "path" : "/mainBar/inventory/poly", "value" : [ [ 0, 100 ], [ 0, 117 ], [ 17, 117 ], [ 17, 100 ] ] },
+
+  { "op" : "replace", "path" : "/mainBar/craft/pos", "value" : [ 0, 75 ] },
+  { "op" : "replace", "path" : "/mainBar/craft/poly", "value" : [ [ 0, 75 ], [ 0, 92 ], [ 17, 92 ], [ 17, 75 ] ] },
+
+  { "op" : "replace", "path" : "/mainBar/codex/base", "value" : "/assetmissing.png" },
+  { "op" : "replace", "path" : "/mainBar/codex/open", "value" : "/assetmissing.png" },
+  { "op" : "replace", "path" : "/mainBar/codex/pos", "value" : [ 0, 0 ] },
+  { "op" : "replace", "path" : "/mainBar/codex/poly", "value" : [ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ] },
+
+  { "op" : "replace", "path" : "/mainBar/collections/pos", "value" : [ 0, 50 ] },
+  { "op" : "replace", "path" : "/mainBar/collections/poly", "value" : [ [ 0, 50 ], [ 0, 67 ], [ 17, 67 ], [ 17, 50 ] ] },
+
+  { "op" : "replace", "path" : "/mainBar/mmUpgrade/pos", "value" : [ 0, 125 ] },
+  { "op" : "replace", "path" : "/mainBar/mmUpgrade/poly", "value" : [ [ 0, 125 ], [ 0, 142 ], [ 17, 142 ], [ 17, 125 ] ] },
+
+  { "op" : "replace", "path" : "/mainBar/deploy/pos", "value" : [ 0, 25 ] },
+  { "op" : "replace", "path" : "/mainBar/deploy/poly", "value" : [ [ 0, 25 ], [ 0, 42 ], [ 17, 42 ], [ 17, 25 ] ] },
+
+  { "op" : "replace", "path" : "/cursorTooltip/collectionsText", "value" : "Lexicon" },
+  { "op" : "replace", "path" : "/cursorTooltip/mmUpgradeText", "value" : "Quests" }
+]

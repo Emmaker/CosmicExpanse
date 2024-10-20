@@ -1,0 +1,15 @@
+{
+  "itemName" : "ceunipad",
+  "price" : 100,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "category" : "Tool",
+  "inventoryIcon" : "ceunipad.png",
+  "shortdescription" : "UniPad",
+  "description" : "Easily access multiple interfaces at the press of a button!",
+
+  "learnBlueprintsOnPickup" : [ "ceunipad" ],
+
+  "twoHanded" : true,
+  "scripts" : ["ceunipad.lua"]
+}
