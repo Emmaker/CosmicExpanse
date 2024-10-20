@@ -1,0 +1,7 @@
+{
+	"frameGrid" : {
+		"size" : [80, 19],
+		"dimensions" : [1, 3],
+		"names" : [ ["default"], ["hover"], ["disabled"] ]
+	}
+}
